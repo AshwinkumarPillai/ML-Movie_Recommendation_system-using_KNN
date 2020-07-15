@@ -28,5 +28,5 @@ if __name__ == '__main__':
     the_post = [7.2, 1, 1, 0, 0, 0, 0, 1, 0]
     recommended_movies = recommend_movies(query=the_post,num_of_recommendation=5) # recommend 5 movie similar to the post
 
-    for movie in recommend_movies:
+    for movie in recommended_movies:
         print(movie[1])
